@@ -1,0 +1,55 @@
+/*Basic HTML*/
+body{font:13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;}
+pre,code {font-family:'DejaVu Sans Mono', Menlo, Consolas, monospace;}
+hr {border:0 #ccc solid;border-top-width:1px;clear:both;height:0;}
+/* Headings*/
+h1 {font-size:25px;}
+h2 {font-size:23px;}
+h3 {font-size:21px;}
+h4 {font-size:19px;}
+h5 {font-size:17px;}
+h6 {font-size:15px;}
+/*Spacing*/
+ol {list-style:decimal;text-align:justify;}
+ul {list-style:none;}
+li {margin-left:30px;}
+ol .b li{list-style:lower-alpha;}
+.a li{margin-bottom:10px;}
+.b li{margin-bottom:0px;}
+/* Scrolling Up */
+.scrollup{width:40px;height:40px;opacity:0.3;position:fixed;bottom:40px;right:100px;display:none;text-indent:-9999px;background: url('../images/icon_top.png') no-repeat;} 
+/* Following and Followers */
+.RemoveButton :hover{background-color:#999;border-radius:3px;}
+.RemoveButton a{color:#fff;}
+.FollowingUsers strong a{text-decoration:none;} 
+.people-content a{color:#ccc;}
+.people-content a:hover{color:#0cf;}
+.following-div{margin-top:40px;margin-bottom:40px;}
+.SearchResultPage{height:31px;float:right;margin-top:12px;}
+.SelectOption{color:#666;background-color:#eee;font-weight:bold;font-family:Helvetica;font-size:13px;padding:8px;border:none;}
+.DetailButton{float:right;font-size:11px; cursor:pointer;background-color:#ccc;color:#fff;padding:5px;width:60px;height:24px;}
+.DetailButton a:hover,.smallbutton1:hover{background-color:#999;}
+.DetailButton a{color:#fff;}
+.search_result_profile{margin-top:30px;float:left;}
+.img-style{height:100px;width:100px;}
+.sidecontent{float:left;line-height:0px;} .accountSettingNav1{float:left;}
+.accountSettingNav1 li{font-family:Helvetica,Arial,sans-serif;font-size:11px;font-style:italic;margin-left:20px;margin-top:10px;float:left;color:#666;list-style:none;}
+.remove-button{float:right;} 
+.smallbutton1{width:80px;height:25px;font-size:11px;color:#fff;background:#ccc;font-family:Helvetica;float:left;border:none;cursor:pointer;font-weight:bold;} 
+.bottom-content{float:left;text-align:justify;}
+.content_pub {color:#B6B6B6;text-align:justify;float:left;clear:both;}
+.content_pub p{text-align:justify;line-height:20px;font-size:13px;font-family:Helvetica;padding-bottom:0px;font-weight:bold;margin-top:5px;}
+.EventDate{padding-top:10px;float:left;}
+.TopSpace{margin-top:5px;}
+/*Billing Shipping Style*/
+.BillingShippingMainDiv{border-radius:3px;border:1px solid #eee;background-color:#eee;float:left;}
+.BillingShippingDetail{margin-left:20px;margin-top:5px;margin-right:10;word-wrap:break-word;color:#666;font-style:normal;font-size:13px;}
+.BillingShippingEdit{float:right;margin-right:9px;margin-top:26px;}
+ /* #newAddress{left:0px;right:0px;top:0px;position:absolute;width: 200px;}
+#coolDiv{position:absolute;top:0;right:0;width:200px;background-color:#ccc;}
+#editAddress{position: relative;background-color: #abc;width: 40px;height: 40px;float: left;margin: 5px;} */
+.Billing_Title{font-size:15px;color:#666;font-weight:bold;float:left;}
+.termAndServices{float:none;margin-left:5px;font-size:13px;}
+.termAndServices a{color:#666;font-weight:bold;}
+.termAndServices a:hover{color:#0cf;}
+#popuppage{background-color:rgb(255, 255, 255);border:5px solid rgb(225,225,225); min-height: 350px; position: absolute; top: 15%;padding:20px; border-radius:5px 5px 5px 5px; left: 0px; right: 0px; margin-left: auto; margin-right: auto; width:646px;z-index:999;}

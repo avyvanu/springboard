@@ -1,0 +1,113 @@
+/*Install new fonts*/
+body{color:#666;}
+
+.wrapperpopUP
+{
+	position:relative;
+}
+  
+.search-wrap #search_mini_form  input.input-text,.headerhome #search_mini_form  input.input-text,.header #search_mini_form  input.input-text,.peopleByCategory,#facemodal .face-box-white,.facebook-profile,.twitter-profile,.email-profile,.buttonsignin,.btn-unlink,.btn-invite,.DesignSaveBtn button,.createAnEventBlock a.createNewEvent,a.createNewEvent,.twitterBtn a,.youtubeBtn a,.mailBtn a,.facebookBtn a,.design-buttons-set button,.CreateWidget a,.PeopleInviteFriend a,.CompleteOrder a,.account-create button, .customer-account-login button,.getStarted a,#eventsform .selectspl,.ReserveSpot a
+{
+	border-radius:7px;
+	/*-moz-border-radius:7px;*/
+	-webkit-border-radius:
+	7px;-o-border-radius:7px;
+}
+
+/*login popup block*/
+
+.loginlink{cursor:pointer;padding:0px;margin-left:0px;}
+
+#facemodal
+{
+	position:fixed;
+	z-index:99999;
+	right:0px;
+	left:0px;
+}
+#facemodal .face-box-white
+{
+	/*background-color:#EEEEEE;*/
+	background-color:#757575;
+	padding:0;
+	position:fixed;
+	width:450px;
+	z-index:1000;
+	height:100px;
+	right:0px;
+	left:0px;
+	margin-right:auto;
+	margin-left:auto;
+	top:23%;
+	border:8px solid #F39961;
+	opacity:0.95;
+	
+}
+.face-box-white h3
+{
+	color:#FFF;
+	font-size:15px;
+	margin:0;
+	text-align:left;
+}
+
+
+.wrapperpopUPtimeUp
+{
+	position:relative;
+}
+
+ 
+#facemodaltimeUp .face-box-whitetimeUp
+{
+	border-radius:7px;
+	/*-moz-border-radius:7px;*/
+	-webkit-border-radius:
+	7px;-o-border-radius:7px;
+}
+
+
+#facemodaltimeUp
+{
+	position:fixed;
+	z-index:99999;
+	right:0px;
+	left:0px;
+}
+
+
+#facemodaltimeUp .face-box-whitetimeUp
+{
+	background-color:#757575;
+	padding:0;
+	position:fixed;
+	width:450px;
+	z-index:1000;
+	height:100px;
+	right:0px;
+	left:0px;
+	margin-right:auto;
+	margin-left:auto;
+	top:23%;
+	border:8px solid #F39961;
+	opacity:0.95;
+}
+.face-box-whitetimeUp h3
+{
+	color:#FFF;
+	font-size:15px;
+	margin:0;
+	text-align:left;
+}
+
+#fade {
+    background-color: #FFFFFF;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}

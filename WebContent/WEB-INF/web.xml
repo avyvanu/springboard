@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <servlet-name>DownloadFile</servlet-name>
+  <servlet-class>servelets.DownloadFile</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>CommonsFileUploadServlet</servlet-name>
+  <servlet-class>upload.CommonsFileUploadServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ControllerServlet</servlet-name>
+  <servlet-class>servelets.ControllerServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ControllerServlet2</servlet-name>
+  <servlet-class>servelets.ControllerServlet2</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>servlets.Users.LoginServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>Registration</servlet-name>
+  <servlet-class>servlets.Users.Registration</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ComprehensionTest</servlet-name>
+  <servlet-class>servlets.Comprehension.ReadComp</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>EnglishGrammerTest</servlet-name>
+  <servlet-class>servlets.Comprehension.EnglishGrammerTest</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>TypingTest</servlet-name>
+  <servlet-class>servlets.TypingTest.TypingTest</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ChatCalc</servlet-name>
+  <servlet-class>servelets.ChatCalc</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>forgotpass</servlet-name>
+  <servlet-class>servlets.Users.ForgotpassServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>MaxiMumTypingAssNo</servlet-name>
+  <servlet-class>util.MaxiMumTypingAssNo</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>MaxiMumReadingCompNo</servlet-name>
+  <servlet-class>util.MaxiMumReadingCompNo</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>MaxiMumLanguageNo</servlet-name>
+  <servlet-class>util.MaxiMumLanguageNo</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>MaxiMumEnglishGrammarNo</servlet-name>
+  <servlet-class>util.MaxiMumEnglishGrammarNo</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>WithCamWithoutCam</servlet-name>
+  <servlet-class>util.WithCamWithoutCam</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CandidateRegis</servlet-name>
+  <servlet-class>servelets.CandidateRegis</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CamImageCapture</servlet-name>
+  <servlet-class>servelets.CamImageCapture</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CanvasServlet</servlet-name>
+  <servlet-class>servelets.CanvasServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ChatresultCalc</servlet-name>
+  <servlet-class>servelets.ChatresultCalc</servlet-class>
+ </servlet>
+ <!-- Ritesh servlet:: Stability and Operation -->
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>StabiltyChkTest</servlet-name>
+  <servlet-class>servelets.StabiltyChkTest</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>OperationsInterview</servlet-name>
+  <servlet-class>servelets.OperationsInterview</servlet-class>
+ </servlet>
+ <!-- End of servlet:: Stability and Operation  
+  Ritesh Part Of Servlet WEB. Xml File VoiceScore -->
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>VoiceScore</servlet-name>
+  <servlet-class>servelets.VoiceScore</servlet-class>
+ </servlet>
+ <!--  End VoiceScore 
+  ChatScore -->
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ChatScore</servlet-name>
+  <servlet-class>servelets.ChatScore</servlet-class>
+ </servlet>
+ <!--  End ChatScore 
+  PrecisWritingScore -->
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>PrecisWritingScore</servlet-name>
+  <servlet-class>servelets.PrecisWritingScore</servlet-class>
+ </servlet>
+ <!--  End PrecisWritingScore 
+  PrecisWritingTest -->
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>PrecisWritingTest</servlet-name>
+  <servlet-class>servelets.PrecisWritingTest</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ChatresultcalcSS</servlet-name>
+  <servlet-class>servelets.ChatresultcalcSS</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CanRegPage</servlet-name>
+  <servlet-class>servelets.CanRegPage</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ApplyingFor</servlet-name>
+  <servlet-class>servelets.ApplyingFor</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CandidateDetailsReg_Final</servlet-name>
+  <servlet-class>servelets.CandidateDetailsReg_Final</servlet-class>
+ </servlet>
+ 
+  <!-- FOR MOCK CHAT TEST -->
+  <servlet>
+    <servlet-name>MockServlet</servlet-name>
+    <servlet-class>servelets.MockServlet</servlet-class>
+  </servlet>
+ <!-- FOR MOCK CHAT TEST -->
+   <servlet>
+    <servlet-name>LogoutServletV</servlet-name>
+    <servlet-class>servelets.LogoutServletV</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LanguageTest</servlet-name>
+    <servlet-class>servelets.LanguageTest</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LanguageTestScore</servlet-name>
+    <servlet-class>servelets.LanguageTestScore</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>EditLanguageStatus</servlet-name>
+    <servlet-class>servelets.EditLanguageStatus</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addLanguageTest</servlet-name>
+    <servlet-class>servelets.addLanguageTest</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>ConsultantServlet</servlet-name>
+    <servlet-class>servelets.ConsultantServlet</servlet-class>
+  </servlet>
+
+
+<servlet>
+    <servlet-name>AddChatQuestion</servlet-name>
+    <servlet-class>servelets.AddChatQuestion</servlet-class>
+  </servlet>
+
+ <servlet>
+    <servlet-name>EditMockChatTestStatus</servlet-name>
+    <servlet-class>servelets.EditMockChatTestStatus</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>EditComprehensionStatus</servlet-name>
+    <servlet-class>servelets.EditComprehensionStatus</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddComprehensionTest</servlet-name>
+    <servlet-class>servelets.AddComprehensionTest</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description></description>
+    <display-name>AddOperationInterview</display-name>
+    <servlet-name>AddOperationInterview</servlet-name>
+    <servlet-class>servelets.AddOperationInterview</servlet-class>
+  </servlet>
+  
+	<servlet>
+    <description></description>
+    <display-name>AddStabilityCheck</display-name>
+    <servlet-name>AddStabilityCheck</servlet-name>
+    <servlet-class>servelets.AddStabilityCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditEngGrammarStatus</servlet-name>
+    <servlet-class>servelets.EditEngGrammarStatus</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddEngGrammarTest</servlet-name>
+    <servlet-class>servelets.AddEngGrammarTest</servlet-class>
+  </servlet>
+<servlet>
+    <description></description>
+    <display-name>EditTest</display-name>
+    <servlet-name>EditTest</servlet-name>
+    <servlet-class>servelets.EditTest</servlet-class>
+  </servlet>
+
+    <servlet-mapping>
+    <servlet-name>EditTest</servlet-name>
+    <url-pattern>/EditTest</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>AddStabilityCheck</servlet-name>
+    <url-pattern>/AddStabilityCheck</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddOperationInterview</servlet-name>
+    <url-pattern>/AddOperationInterview</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>EditMockChatTestStatus</servlet-name>
+    <url-pattern>/EditMockChatTestStatus</url-pattern>
+  </servlet-mapping>
+
+ <servlet-mapping>
+    <servlet-name>AddChatQuestion</servlet-name>
+    <url-pattern>/AddChatQuestion</url-pattern>
+  </servlet-mapping>
+
+ <servlet-mapping>
+    <servlet-name>MockServlet</servlet-name>
+    <url-pattern>/MockServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditComprehensionStatus</servlet-name>
+    <url-pattern>/EditComprehensionStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddComprehensionTest</servlet-name>
+    <url-pattern>/AddComprehensionTest</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ConsultantServlet</servlet-name>
+    <url-pattern>/ConsultantServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>EditLanguageStatus</servlet-name>
+    <url-pattern>/EditLanguageStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addLanguageTest</servlet-name>
+    <url-pattern>/addLanguageTest</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>LanguageTestScore</servlet-name>
+    <url-pattern>/LanguageTestScore</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LanguageTest</servlet-name>
+  <url-pattern>/LanguageTest</url-pattern>
+ </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>LogoutServletV</servlet-name>
+    <url-pattern>/LogoutServletV</url-pattern>
+  </servlet-mapping>
+ <!--  End PrecisWritingTest 
+ Ritesh::Mapping  StabiltyChkTest and OperationsInterview-->
+ <servlet-mapping>
+  <servlet-name>StabiltyChkTest</servlet-name>
+  <url-pattern>/StabiltyChkTest</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>OperationsInterview</servlet-name>
+  <url-pattern>/OperationsInterview</url-pattern>
+ </servlet-mapping>
+ <!--End of  StabiltyChkTest and OperationsInterview
+-   Mapping ChatScore  -->
+ <servlet-mapping>
+  <servlet-name>VoiceScore</servlet-name>
+  <url-pattern>/VoiceScore</url-pattern>
+ </servlet-mapping>
+ <!---  End Mapping ChatScore  
+-   Mapping ChatScore  -->
+ <servlet-mapping>
+  <servlet-name>ChatScore</servlet-name>
+  <url-pattern>/ChatScore</url-pattern>
+ </servlet-mapping>
+ <!---   End Mapping ChatScore  
+-    Mapping PrecisWritingScore  -->
+ <servlet-mapping>
+  <servlet-name>PrecisWritingScore</servlet-name>
+  <url-pattern>/PrecisWritingScore</url-pattern>
+ </servlet-mapping>
+ <!---   End Mapping PrecisWritingScore  
+-    Mapping PrecisWritingTest  -->
+ <servlet-mapping>
+  <servlet-name>PrecisWritingTest</servlet-name>
+  <url-pattern>/PrecisWritingTest</url-pattern>
+ </servlet-mapping>
+ <!--- End   Ritesh Part Of Servlet WEB. Xml   Mapping PrecisWritingTest  -->
+ <servlet-mapping>
+  <servlet-name>DownloadFile</servlet-name>
+  <url-pattern>/DownloadFile</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CommonsFileUploadServlet</servlet-name>
+  <url-pattern>/CommonsFileUploadServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ControllerServlet</servlet-name>
+  <url-pattern>/jsp/ControllerServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ControllerServlet2</servlet-name>
+  <url-pattern>/jsp/ControllerServlet2</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/Login</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>Registration</servlet-name>
+  <url-pattern>/Registration</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ComprehensionTest</servlet-name>
+  <url-pattern>/ComprehensionTest</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>EnglishGrammerTest</servlet-name>
+  <url-pattern>/EnglishGrammerTest</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>TypingTest</servlet-name>
+  <url-pattern>/TypingTest</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ChatCalc</servlet-name>
+  <url-pattern>/servlet/ChatCalc</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>forgotpass</servlet-name>
+  <url-pattern>/jsp/forgotpass</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>MaxiMumTypingAssNo</servlet-name>
+  <url-pattern>/MaxiMumTypingAssNo</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>MaxiMumReadingCompNo</servlet-name>
+  <url-pattern>/MaxiMumReadingCompNo</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>MaxiMumLanguageNo</servlet-name>
+  <url-pattern>/MaxiMumLanguageNo</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>MaxiMumEnglishGrammarNo</servlet-name>
+  <url-pattern>/MaxiMumEnglishGrammarNo</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>WithCamWithoutCam</servlet-name>
+  <url-pattern>/WithCamWithoutCam</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CandidateRegis</servlet-name>
+  <url-pattern>/CandidateRegis</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CamImageCapture</servlet-name>
+  <url-pattern>/CamImageCapture</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CanvasServlet</servlet-name>
+  <url-pattern>/CanvasServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ChatresultCalc</servlet-name>
+  <url-pattern>/ChatresultCalc</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ChatresultcalcSS</servlet-name>
+  <url-pattern>/ChatresultcalcSS</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CanRegPage</servlet-name>
+  <url-pattern>/CanRegPage</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ApplyingFor</servlet-name>
+  <url-pattern>/ApplyingFor</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CandidateDetailsReg_Final</servlet-name>
+  <url-pattern>/CandidateDetailsReg_Final</url-pattern>
+ </servlet-mapping>
+ 
+  <!-- FOR MOCK CHAT TEST -->
+  <servlet-mapping>
+    <servlet-name>MockServlet</servlet-name>
+    <url-pattern>/MockServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditEngGrammarStatus</servlet-name>
+    <url-pattern>/EditEngGrammarStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEngGrammarTest</servlet-name>
+    <url-pattern>/AddEngGrammarTest</url-pattern>
+  </servlet-mapping>
+  <!-- FOR MOCK CHAT TEST -->
+ 
+ <session-config> 
+  <session-timeout>60</session-timeout>
+ </session-config>
+ 
+ <welcome-file-list>
+  <welcome-file>/jsp/test.html</welcome-file>
+  <welcome-file>/247Recruit/jsp/Welcome_Page.jsp</welcome-file>
+ </welcome-file-list>
+ <error-page>
+  <error-code>500</error-code>
+  <location>/247Recruit/jsp/Error.jsp?ec=500</location>
+ </error-page>
+ <error-page>
+  <error-code>404</error-code>
+  <location>/247Recruit/jsp/Error.jsp?ec=404</location>
+ </error-page>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+ <resource-ref>
+  <description>DB Connection</description>
+  <res-ref-name>jdbc/mysql</res-ref-name>
+  <res-type>javax.sql.DataSource</res-type>
+  <res-auth>Container</res-auth>
+ </resource-ref>
+</web-app>

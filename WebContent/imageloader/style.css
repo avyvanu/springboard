@@ -1,0 +1,31 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+body {font:13px arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}table {font-size:inherit;font:100%;}select, input, textarea {font:99% arial,helvetica,clean,sans-serif;}pre, code {font:115% monospace;*font-size:100%;}body * {line-height:1.22em;}
+h1 {font-size:138.5%;}
+h2 {font-size:123.1%;}
+
+a {color:#990000}
+strong {font-weight:bold}
+.clear {clear:both}
+#wrapper {margin:0; padding:0}
+#header {height: 6em; background-color:#724c21;color:#ffffff;}
+#header a {color:#ffffff; text-decoration:none}
+#header .title {padding-top: 2.7em; padding-left: 10px; float:left}
+#header .title2 {padding-right: 10px; float:right; font-style:italic; font-weight:normal}
+#content {padding:3em; width:760px; margin:0 auto}
+#content #colLeft {float:left; width: 480px}
+#content #colRight {float:left; margin-left: 5px}
+.imageTable {margin-top:1em; margin-bottom:1em}
+.imageTable tr td{border:1px solid #CCCCCC; padding: 1em}
+.candyBox {background-color: #ffffe5; padding:1em}
+.buyBearCon {text-align:center; margin-left:5em; margin-top:2em}
+.buyBearCon .left {float:left}
+.buyBearCon .right {float:left; margin-left: 5px}
+.return {font-weight:bold; font-size:167%}

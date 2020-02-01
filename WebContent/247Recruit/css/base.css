@@ -1,0 +1,284 @@
+.taboca-logomini {
+	width:60px;
+	height:60px;
+        background: black url(../output/vendor-taboca/logomini.png) 0px 0px repeat-x;
+}
+
+
+.prefooter { 
+ 	width:900px;
+	margin:auto;
+	color:gray;
+} 
+
+/* These are used to the side panels */
+
+
+
+.headerlink { 
+	color:white;
+	font-size:190%;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover { 
+	text-decoration:underline;
+} 
+
+
+.thumbimg { 
+	border:7px solid #ddd;
+} 
+
+#panel-container { 
+	width:520px;
+	float:right;
+}
+.items-description h2 { 
+}
+
+.items-description { margin-bottom:2em } 
+.items-description td { 
+	font-size:90%;
+	color:gray;
+	padding-left:1em;
+	text-alignment:justify;
+} 
+
+.thumb { 	
+	border:1px solid gray;
+	margin-right:10px;	
+	padding:1px;
+} 
+
+#overdrive-buffers { 
+
+	display:none;
+} 
+#panel-container { 
+  padding-left:1em;
+} 
+
+#tabs-header { 
+	margin:auto;
+	margin-top:-4px;
+	width:850px;
+        font-size:86%;
+} 
+
+div.tr { 
+	font-size:85%
+}
+
+div.tr * { color:#555 } 
+
+div.tr h3 { 
+	margin:0 0 .6em 0;
+}
+
+#bottomfooter #footergraphic { 
+   height:40px;
+   width:100%;
+   background: transparent url(../output/component-topbanner/image-fader-up.png) 50% 0 no-repeat ;
+} 
+
+#bottomfooter { 
+   color:black;
+   text-shadow:  0 0 15px black;
+   min-height:180px;
+   padding:1em;
+   padding-top:0;
+   background: rgb(233,233,233) url(../output/component-footer/bottom.png) 0px 0px repeat-x ;
+} 
+
+#bottomfooter a { 
+ color:white;
+ text-decoration:none;
+} 
+
+#bottomfooter a:hover { 
+ color:black;
+} 
+
+li { 
+	list-style:square;
+	color:gray;
+}
+
+#bottomfooter h3 { 
+   margin:0;
+   color:#ddd;
+} 
+
+#bottomfooter table { 
+	margin:auto;
+	width:740px;
+}
+
+#bottomfooter td { 
+	font-size:87%;
+}
+
+#bottomfooter ul { 
+	margin:0px;
+	padding-top:0;
+}
+
+table td { 
+	font-size:90%;
+} 
+
+table td > img { 
+ 	
+	padding:1px;
+} 
+
+.section { 
+	width:100%;
+	text-alignment:justify;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	background: url(../output/component-section-pattern/bg.png) repeat 0 0; 
+	min-height:30px;
+} 
+.section-hot { 
+	width:100%;
+	text-alignment:justify;
+	border-top:2px solid lightblue;
+	border-bottom:1px solid white;
+	background: url(../output/component-section-pattern/hot.png) repeat 0 0; 
+	min-height:30px;
+} 
+
+.section-shadowtop { 
+	width:100%;
+	text-alignment:justify;
+	border-bottom:1px solid gray;
+	background: url(../output/component-topbanner/image-fader-up.png) bottom center ; 
+	min-height:60px;
+} 
+
+
+.section a { 
+	color:black;
+	text-decoration:none;
+}
+
+.section a:hover { 
+	text-decoration:underline;
+}  
+
+
+.fixverticalalign { 
+
+  width:1px;height:68px;vertical-align:middle;
+  position:relative;
+
+} 
+
+.tab-plain {
+        width:350px;
+        height:80;x
+        margin:0px;
+        padding:0px;
+        background:url(../output/component-fixed-tab-plain/image.png) no-repeat 0 0;
+        text-align:center;
+}
+
+html { 
+ 	font-family: arial, sans-serif; 
+	color:black;
+	margin:0px;
+} 
+
+h1,h2,h3 { 
+ 	color:rgb(0,0,0);
+	text-shadow: 0 0 20px #777;
+} 
+
+h1 {
+	font-size:140% 
+} 
+
+h4 { 
+	font-size:140%;
+	margin:.5em;
+	margin-top:0;
+}
+
+html, body {
+        padding:0px;
+        margin:0px;
+}
+
+		.separator  {
+                        background: white url(../output/component-footer/bg-odd.png) -350px -50px repeat-x;
+			width:100%;
+
+			margin-top:1em;
+		} 
+
+                #topheader {
+                        width:100%;
+                        margin:0px;
+                        background: white url(../output/component-topbanner/image-fader.png) top center repeat-x;
+                }
+		#topheader-section a { 
+			color:white;
+			text-decoration:none;
+			opacity:.5;
+		} 
+                #logo {
+			color:#ccc;
+                        background:url(../output/component-topbanner/bg.png) 0 -20px no-repeat;
+			width:410px;	
+			height:214px;
+                }
+
+
+.t {background: url(../output/component-box/boxshade.png) 0 0 repeat-x; width: 100%; }
+.b {background: url(../output/component-box/dot.png) 0 100% repeat-x}
+.l {background: url(../output/component-box/dot.png) 0 0 repeat-y}
+.r {background: url(../output/component-box/dot.png) 100% 0 repeat-y}
+.bl {background: url(../output/component-box/q5.png) 0 100% no-repeat}
+.br {background: url(../output/component-box/q4.png) 100% 100% no-repeat}
+.tl {background: url(../output/component-box/q1.png) 0 0 no-repeat}
+.tr {background: url(../output/component-box/q3.png) 100% 0 no-repeat; padding:10px}
+
+.boxt_t {background: url(../output/component-box-transparent/boxshade.png) 0 0 repeat-x; width: 100%; }
+.boxt_b {background: url(../output/component-box-transparent/dot.png) 0 100% repeat-x}
+.boxt_l {background: url(../output/component-box-transparent/dot.png) 0 0 repeat-y}
+.boxt_r {background: url(../output/component-box-transparent/dot.png) 100% 0 repeat-y}
+.boxt_bl {background: url(../output/component-box-transparent/q5.png) 0 100% no-repeat}
+.boxt_br {background: url(../output/component-box-transparent/q4.png) 100% 100% no-repeat}
+.boxt_tl {background: url(../output/component-box-transparent/q1.png) 0 0 no-repeat}
+.boxt_tr {background: url(../output/component-box/q3.png) 100% 0 no-repeat; padding:10px}
+
+.ot {background: url(../output/component-box-odd/oddboxshade.png) 0 0 repeat-x; width: 100%; }
+.ob {background: url(../output/component-box-odd/odddot.png) 0 100% repeat-x}
+.ol {background: url(../output/component-box-odd/odddot.png) 0 0 repeat-y}
+.or {background: url(../output/component-box-odd/odddot.png) 100% 0 repeat-y}
+.obl {background: url(../output/component-box-odd/o5.png) 0 100% no-repeat}
+.obr {background: url(../output/component-box-odd/o4.png) 100% 100% no-repeat}
+.otl {background: url(../output/component-box-odd/o1.png) 0 0 no-repeat}
+.otr {background: url(../output/component-box-odd/o3.png) 100% 0 no-repeat; padding:10px}
+
+
+ul { 
+ margin:0px;
+ padding:1em;
+} 
+
+.content { 
+ 	width:790px;
+	margin:auto;
+	background: url(../output/component-content/content-shadow.png) top center no-repeat;
+	padding:50px;
+	top:90px;
+	padding-top:10px;
+} 
+
+
+
+

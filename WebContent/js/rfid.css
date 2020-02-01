@@ -1,0 +1,125 @@
+.welcomebody 
+{
+	background-image: url(images/bg_website.jpg);
+}
+.footertext 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footerlinks 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footerlinks:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.customlinks 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#423f3f;
+}
+.innertopnavlinks 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#454545;
+}
+.innertopnavlinks:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#1c1c1c;
+}
+.innertopnavlinks_active 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#1c1c1c;
+}
+.secondnavlinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fedc56;
+	text-decoration: none;
+	text-align: left;
+}
+.secondnavlinks:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #242424;
+	text-decoration: none;
+	text-align: left;
+}
+.secondnavlinks_active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #242424;
+	text-decoration: none;
+	text-align: left;
+}
+.innertopnavlinks_bg {
+	background-color: #dbdbdb;
+}
+.bodytext {
+	font-family: Tahoma, Geneva, Arial;
+	font-size: 11px;
+	color: #3c3c3c;
+	text-decoration: none;
+	line-height: 16px;
+	text-align: left;
+}
+.subheading {
+	font-family: Tahoma, Geneva, Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3c3c3c;
+	text-decoration: none;
+	line-height: 16px;
+	text-align: left;
+}
+.headings {
+	font-family: Tahoma, Geneva, Arial;
+	font-size: 16px;
+	color: #cf7328;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.contact {
+	background:url(images/contactbg.gif) no-repeat  0 44px; float:left; width:222px; padding:64px 0 16px 102px;
+	}
+.contact p.whitetext {
+	font:bold 14px Arial, Helvetica, sans-serif; color:#FFFFFF;
+	}
+.contact p.whitetext span {
+	font:normal 10px "Trebuchet MS", Tahoma, "Times New Roman"; color:#FFFFFF; padding:4px; background-color:#4F0202; margin:0 0 0 2px;
+	}
+.contact p.yellow-text {
+	font:normal 18px "Trebuchet MS", Tahoma, "Times New Roman"; color:#FFDC1B; margin:12px 0 0;
+	}

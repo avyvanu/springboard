@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner-form{ position:relative; z-index:1; width:956px; height:285px; background:url(../images/banner-img.jpg) no-repeat; clear:both}
+.login-form{ width:257px; height:247px; background:url(../images/login-form-bg.png) no-repeat; position:absolute; right:10px; top:10px; margin:0; padding:12px 0 0 0; z-index:100}
+.lg-form { margin:0 0 0 10px; padding:5px 20px 10px 20px; background:url(../images/form-bg.jpg) repeat-x bottom; position:relative}
+.lg-form ul{ margin:0; padding:0;}
+.lg-form ul li{ margin:0 0 2px 0; padding:0; list-style:none; font-size:11px; color:#666; line-height:14px;}
+.login-txt-box{ width:197px; height:26px; background:url(../images/login-box-bg.gif) no-repeat; padding:0 5px; margin:0 0 13px 0; position:relative;}
+.login-txt-box span{ position:absolute; top:0; left:0; margin:27px 0 0 0; color:#f00; font-size:11px;}
+.login-txt-box input{border:none; background:none; width:190px; font-size:11px; color:#666; font-family:Arial, Helvetica, sans-serif; margin:4px 0 0 0}
+
+.pageLinks{ margin:0 0 0 10px;}
+.pageLinks ul{ margin:0; padding:0;}
+.pageLinks ul li{ margin:0; list-style:none; background:#FFFFFF url(../images/gray_grad.gif) repeat-x scroll left bottom; padding:9px 11px; line-height:14px;}
+.pageLinks ul li a{ font-size:11px; text-decoration:none; background:url(../images/bullet2.gif) no-repeat left; padding:0 0 0 20px; color:#19499C; font-weight:bold; display:block}
+
+.navText{ font-size:11px; float:right}
+
+.pagination{ text-align:left; display:block; padding:0px 0; color:#666; font-size:13px;}
+.pagination a{  color:#f11a1d; font-weight:normal; font-size:13px; text-decoration:none}
+.pagination a:hover{ text-decoration:underline}
+.pagination b{ font-weight:bold; color:#000; border:1px solid #ccc; padding:0 3px; background:#fff;}
+
+.mandatory{ font-weight:bold; color:#666; text-align:right; padding:0 5px 5px 5px;}
+input,textarea{ font:normal 12px Arial, Helvetica, sans-serif; color:#666;}
+
+p.messageTxt{ text-align:center; margin:20px 0 20px 0; font-weight:bold; font-size:14px; color:#f11a1d;}
+
+
+.formList ul {
+margin:10px 0 10px 10px;
+padding:0;
+}
+
+.formList ul li {
+background:transparent url(../../img/common/bullet4.gif) no-repeat scroll left 6px;
+color:#666666;
+font-size:12px;
+line-height:18px;
+list-style:none;
+margin:0 0 6px;
+padding:0 0 0 10px;
+}
+.tableHead{ margin:10px 0 0 0; color:#666; font-size:16px; font-weight:bold; padding:0 0 0 10px}

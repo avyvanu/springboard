@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Image Loader Demo - Code Central</title>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.4.1/build/assets/skins/sam/skin.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<script type="text/javascript" src="../imageloader/utilities.js"></script>
+<script type="text/javascript" src="../imageloader/container-min.js"></script>
+<script type="text/javascript" src="../imageloader/loadingpanel.js"></script>
+<script type="text/javascript" src="../imageloader/imageloader.js"></script>
+
+</head>
+<body onload="loadImage1()">
+
+
+
+<button onclick="loadImage1()">Load Image Demo 1</button><br/>
+
+<script type="text/javascript">
+
+function loadImage1(){
+var loadingPanel = new yuiLoadingPanel();
+
+var loader = new ImageLoader('../images/rel_interstitial_loading.gif');
+loadingPanel.show('Loading ...');
+loader.loadEvent = function(url, image){
+ // putImage(image);
+ // loadingPanel.hide();
+}
+loader.load();
+}
+
+
+
+</script>
+
+</body>
+</html>
